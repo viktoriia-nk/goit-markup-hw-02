@@ -13,10 +13,9 @@
 }
 
 body {
-  background-color: var(--white-color);
+  font-family: "Roboto", "sans-serif";
   color: var(--primary-text-color);
-
-  font-family: roboto, sans-serif;
+  background-color: var(--white-color);
 }
 ul {
   list-style: none;
@@ -24,7 +23,7 @@ ul {
 /* logo */
 .logo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", "sana-serif";
 
   font-weight: 700;
   font-size: 26px;
@@ -46,7 +45,6 @@ ul {
 
 .site-nav .link {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -58,10 +56,13 @@ ul {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* auth-nav */
 .auth-nav .link {
   color: var(--primary-text-color);
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -76,7 +77,6 @@ ul {
 /* hero */
 .hero-title {
   color: var(--white-color);
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -90,7 +90,6 @@ ul {
 .hero button {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -108,7 +107,6 @@ ul {
 
 .section-title {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -119,7 +117,6 @@ ul {
 /* преимущества */
 .benefits .benefits-title {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -127,7 +124,6 @@ ul {
   text-transform: uppercase;
 }
 .benefits p {
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -141,6 +137,10 @@ ul {
 }
 .team .team-title {
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* футер */
@@ -150,7 +150,7 @@ ul {
 /* logo */
 .logo-footer {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", "sans-serif";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -171,7 +171,6 @@ ul {
 
 .adress .link-adress {
   color: var(--white-color);
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -184,7 +183,6 @@ ul {
 }
 .adress .link {
   color: var(--footer-secondary-text-color);
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -206,6 +204,11 @@ ul {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter button:hover,
 .filter button:focus {
@@ -219,7 +222,6 @@ ul {
 }
 
 .gallery .gallery-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -228,7 +230,6 @@ ul {
 }
 
 .gallery p {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
