@@ -90,6 +90,7 @@ ul {
 .hero button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -204,6 +205,7 @@ ul {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
